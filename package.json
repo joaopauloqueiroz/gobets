@@ -1,0 +1,19 @@
+{
+  "name": "Integration-Cielo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./server.js",
+    "start": "node ./server.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment-timezone": "^0.5.33",
+    "nodemailer": "^6.6.1",
+    "pg": "^8.6.0"
+  }
+}
